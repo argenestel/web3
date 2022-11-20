@@ -3,8 +3,8 @@ import { Navbar, Loader, Transactions, Footer, Welcome } from "./components"
 
 export default function App() {
   return (
-<div>
-  <div>
+<div className="min-h-screen">
+  <div className="gradient-bg-welcome">
     <Navbar />
     <Welcome />
   </div>
